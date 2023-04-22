@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import CondtionalRenderingFunctional from './components/CondtionalRenderingFunctional';
 
 function App() {
   return (
     <div className="App">
-      <EventBinding />
+      <ConditionalRenderingClass />
+      <CondtionalRenderingFunctional connected={true} />
     </div>
   );
 }
